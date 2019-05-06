@@ -1,0 +1,180 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!1001 &100100000
+Prefab:
+  m_ObjectHideFlags: 1
+  serializedVersion: 2
+  m_Modification:
+    m_TransformParent: {fileID: 0}
+    m_Modifications: []
+    m_RemovedComponents: []
+  m_SourcePrefab: {fileID: 0}
+  m_RootGameObject: {fileID: 1139443338268118}
+  m_IsPrefabAsset: 1
+--- !u!1 &1139443338268118
+GameObject:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInternal: {fileID: 100100000}
+  serializedVersion: 6
+  m_Component:
+  - component: {fileID: 4511343103560354}
+  - component: {fileID: 114030001501017298}
+  m_Layer: 0
+  m_Name: AudioManager
+  m_TagString: Untagged
+  m_Icon: {fileID: 0}
+  m_NavMeshLayer: 0
+  m_StaticEditorFlags: 0
+  m_IsActive: 1
+--- !u!4 &4511343103560354
+Transform:
+  m_ObjectHideFlags: 1
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInternal: {fileID: 100100000}
+  m_GameObject: {fileID: 1139443338268118}
+  m_LocalRotation: {x: 0, y: 0, z: 0, w: 1}
+  m_LocalPosition: {x: 895, y: 412, z: -11}
+  m_LocalScale: {x: 1, y: 1, z: 1}
+  m_Children: []
+  m_Father: {fileID: 0}
+  m_RootOrder: 0
+  m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
+--- !u!114 &114030001501017298
+MonoBehaviour:
+  m_ObjectHideFlags: 1
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInternal: {fileID: 100100000}
+  m_GameObject: {fileID: 1139443338268118}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: a61564e6587bae245ab1477c14490c6d, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  sounds:
+  - name: Navigate
+    clip: {fileID: 8300000, guid: 785f7b95829a8fc46ad0ef15e13f1380, type: 3}
+    volume: 1.54
+    pitch: 1
+    loop: 0
+    PlayOnAwake: 0
+    mute: 0
+    pause: 0
+    source: {fileID: 0}
+  - name: Select
+    clip: {fileID: 8300000, guid: 1d532f2bf67cec84584cb900457bfa20, type: 3}
+    volume: 0.95
+    pitch: 1
+    loop: 0
+    PlayOnAwake: 0
+    mute: 0
+    pause: 0
+    source: {fileID: 0}
+  - name: Duck
+    clip: {fileID: 8300000, guid: f20e200bc158b7347afa5f0c3624d67d, type: 3}
+    volume: 0.198
+    pitch: 1
+    loop: 0
+    PlayOnAwake: 0
+    mute: 0
+    pause: 0
+    source: {fileID: 0}
+  - name: Unicorn
+    clip: {fileID: 8300000, guid: b5450d5a25d7a14478fd78777e7e2bc0, type: 3}
+    volume: 0.198
+    pitch: 1
+    loop: 0
+    PlayOnAwake: 0
+    mute: 0
+    pause: 0
+    source: {fileID: 0}
+  - name: Hawk
+    clip: {fileID: 8300000, guid: b9dbc283efa7f6448bfb7f4c5f883002, type: 3}
+    volume: 0.198
+    pitch: 1
+    loop: 0
+    PlayOnAwake: 0
+    mute: 0
+    pause: 0
+    source: {fileID: 0}
+  - name: Confirm
+    clip: {fileID: 8300000, guid: ea3d9737e55b36f419293080c89696ea, type: 3}
+    volume: 0.83
+    pitch: 1
+    loop: 0
+    PlayOnAwake: 0
+    mute: 0
+    pause: 0
+    source: {fileID: 0}
+  - name: Theme
+    clip: {fileID: 8300000, guid: 234d7c86e86ccdd4891c60196623e344, type: 3}
+    volume: 0.61
+    pitch: 1
+    loop: 1
+    PlayOnAwake: 1
+    mute: 0
+    pause: 0
+    source: {fileID: 0}
+  - name: PlayerScore
+    clip: {fileID: 8300000, guid: 9277a9e9141cdc54684d11f5672d435c, type: 3}
+    volume: 0.99
+    pitch: 1
+    loop: 0
+    PlayOnAwake: 0
+    mute: 0
+    pause: 0
+    source: {fileID: 0}
+  - name: Respawn
+    clip: {fileID: 8300000, guid: 4d3c1284e606a2d4ebd72ac435f37503, type: 3}
+    volume: 2
+    pitch: 0.23
+    loop: 0
+    PlayOnAwake: 0
+    mute: 0
+    pause: 0
+    source: {fileID: 0}
+  - name: AbilityReady
+    clip: {fileID: 8300000, guid: cc27251970c7dde4c8c4c2eee8f4a655, type: 3}
+    volume: 1.46
+    pitch: 1
+    loop: 0
+    PlayOnAwake: 0
+    mute: 0
+    pause: 0
+    source: {fileID: 0}
+  - name: Victory
+    clip: {fileID: 8300000, guid: baf7ad3ebb3c023408234455f5d42d57, type: 3}
+    volume: 0.51
+    pitch: 1
+    loop: 0
+    PlayOnAwake: 0
+    mute: 0
+    pause: 0
+    source: {fileID: 0}
+  - name: MainMenuTheme
+    clip: {fileID: 8300000, guid: 461f07e804756404a98ecb0afa233250, type: 3}
+    volume: 1.85
+    pitch: 1
+    loop: 1
+    PlayOnAwake: 1
+    mute: 0
+    pause: 0
+    source: {fileID: 0}
+  - name: CharacterSelectTheme
+    clip: {fileID: 8300000, guid: ac96f6f22229bcc42916eb76f7a5ccd8, type: 3}
+    volume: 0.072
+    pitch: 1
+    loop: 1
+    PlayOnAwake: 1
+    mute: 0
+    pause: 0
+    source: {fileID: 0}
+  - name: Deer
+    clip: {fileID: 8300000, guid: bf87d47223d9cb243ab478831f9838dd, type: 3}
+    volume: 0.109
+    pitch: 1
+    loop: 0
+    PlayOnAwake: 0
+    mute: 0
+    pause: 0
+    source: {fileID: 0}
